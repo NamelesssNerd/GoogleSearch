@@ -66,7 +66,19 @@
 }
 .searchBox .right {
   width: 10rem;
-  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchBox .right .ok {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  font-size: 1.3rem;
+  color: black;
 }
 
 #button-container {
@@ -76,8 +88,10 @@
 button {
   background-color: #F2F2F2;
   border: 1px solid #F2F2F2;
-  border-radius: 2px;
   color: #757575;
+  border-radius: 0.4rem;
+  width: 10rem;
+  height: 3rem;
   font-size: 13px;
   font-weight: bold;
   min-width: 54px;
@@ -87,7 +101,6 @@ button {
 }
 button:hover {
   border-color: #C6C6C6;
-  background-color: #F8F8F8;
   color: #222;
 }
 
